@@ -113,13 +113,6 @@
 	whitelisted = list(SPECIES_SKRELL, SPECIES_SKRELL_AXIORI)
 	sort_category = "Xenowear - Skrell"
 	flags = GEAR_HAS_NAME_SELECTION | GEAR_HAS_DESC_SELECTION | GEAR_HAS_COLOR_SELECTION
-	
-/datum/gear/ears/skrell/dreammantle
-	display_name = "zi'pluax mantle"
-	path = /obj/item/clothing/ears/skrell/dreammantle
-	whitelisted = list(SPECIES_SKRELL, SPECIES_SKRELL_AXIORI)
-	sort_category = "Xenowear - Skrell"
-	flags = GEAR_HAS_DESC_SELECTION | GEAR_HAS_COLOR_SELECTION
 
 /datum/gear/ears/skrell/goop/New()
 	..()
@@ -128,6 +121,13 @@
 	algae["glowing algae(stripes)"] = /obj/item/clothing/ears/skrell/goop/stripes
 	algae["glowing algae(circles)"] = /obj/item/clothing/ears/skrell/goop/circles
 	gear_tweaks += new /datum/gear_tweak/path(algae)
+	
+/datum/gear/ears/skrell/dreammantle
+	display_name = "zi'pluax mantle"
+	path = /obj/item/clothing/ears/skrell/dreammantle
+	whitelisted = list(SPECIES_SKRELL, SPECIES_SKRELL_AXIORI)
+	sort_category = "Xenowear - Skrell"
+	flags = GEAR_HAS_DESC_SELECTION | GEAR_HAS_COLOR_SELECTION
 
 /datum/gear/mask/skrell
 	display_name = "skrell gill cover"
