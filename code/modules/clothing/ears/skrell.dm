@@ -257,7 +257,7 @@
 /obj/item/clothing/ears/skrell/dreammantle
 	name = "zi'pluax mantle"
 	desc = "A mantle worn to hide the headtail. Common with the generational fleet of the Zi'Pluax."
-	icon_state = "skrell_dream_mantle"
+	icon_state = "skrell_dream_mantle_item"
 	item_state = "skrell_dream_mantle"
 
 /obj/item/clothing/ears/skrell/scrunchy
