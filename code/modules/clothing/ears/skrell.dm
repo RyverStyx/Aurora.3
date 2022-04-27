@@ -240,6 +240,7 @@
 	if(color)
 		set_light(1.5,1.5,color)
 		filters = filter(type="drop_shadow", color = color + "F0", size = 2, offset = 1, x = 0, y = 0)
+		
 
 /obj/item/clothing/ears/skrell/goop/Initialize()
 	. = ..()
@@ -252,6 +253,12 @@
 /obj/item/clothing/ears/skrell/goop/circles
 	icon_state = "skrell_circles"
 	item_state = "skrell_circles"
+	
+/obj/item/clothing/ears/skrell/dreammantle
+	name = "zi'pluax mantle"
+	desc = "A mantle worn to hide the headtail. Common with the generational fleet of the Zi'Pluax."
+	icon_state = "skrell_dream_mantle"
+	item_state = "skrell_dream_mantle"
 
 /obj/item/clothing/ears/skrell/scrunchy
 	name = "skrell tentacle tie"
