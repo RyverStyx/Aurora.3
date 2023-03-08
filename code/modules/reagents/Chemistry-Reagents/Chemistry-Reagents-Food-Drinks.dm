@@ -3499,7 +3499,7 @@
 	glass_name = "glass of planter's punch"
 	glass_desc = "This takes you back, back to those endless white beaches of yore."
 	glass_center_of_mass = list("x"=16, "y"=8)
-
+	
 /singleton/reagent/alcohol/pwine
 	name = "Poison Wine"
 	description = "Is this even wine? Toxic! Hallucinogenic! Probably consumed in boatloads by your superiors!"
@@ -4462,6 +4462,73 @@
 // Skrellian drinks
 //====================
 // Some are alocholic, some are not
+
+/singleton/reagent/alcohol/fermenteddyn
+	name = "Nralakk Fermented Dyn"
+	description = "This drink is a staple in most households across Nralakk."
+	color = "#9BC7D2"
+	strength = 20
+	taste_description = "pickely dyn"
+
+	glass_icon_state = "dynjuice"
+	glass_name = "glass of Nralakk Fermented Dyn"
+	glass_desc = "This drink is a staple in most households across Nralakk."
+	
+/singleton/reagent/alcohol/skrellbeer
+	name = "Skrell Beer"
+	description = "This is what your cousin in the Traverse drinks."
+	color = "#e3e77b"
+	strength = 10
+	taste_description = "seaweed and wheat"
+
+	glass_icon_state = "beerglass"
+	glass_name = "glass of Nralakk Fermented Dyn"
+	glass_desc = "This is what your cousin in the Traverse drinks."
+
+/singleton/reagent/alcohol/summerdyn
+	name = "Summer Dyn"
+	description = "A cool, refreshing glass of watermelon dyn."
+	color = "#CBC3E3"
+	strength = 8
+	taste_description = "boozey summertime happiness"
+
+	glass_icon_state = "summerdyn"
+	glass_name = "glass of Summer Dyn"
+	glass_desc = "A cool, refreshing glass of watermelon dyn."
+
+/singleton/reagent/alcohol/psionbomb
+	name = "Psion Bomb"
+	description = "CAUTION: Not listener approved!"
+	color = "#81C043"
+	strength = 30
+	taste_description = "your brain is shrivelling up and folding in on itself"
+
+	glass_icon_state = "psionbomb"
+	glass_name = "glass of Psion Bomb"
+	glass_desc = "CAUTION: Not listener approved!"
+
+/singleton/reagent/alcohol/protoskrell
+	name = "Proto Skrell"
+	description = "This'll put some tuux on your chest."
+	color = "#C4A484"
+	strength = 15
+	taste_description = "primordial ooze"
+	carbonated = TRUE
+
+	glass_icon_state = "protoskrell"
+	glass_name = "glass of Proto Skrell"
+	glass_desc = "This'll put some tuux on your chest."
+
+/singleton/reagent/alcohol/dynfizz
+	name = "Dyn Fizz"
+	description = "This fizzy drink will leave the Nlom buzzing."
+	color = "#9BC7D2"
+	strength = 10
+	taste_description = "tv static in your brain"
+
+	glass_icon_state = "dynfizz"
+	glass_name = "glass of Dyn Fizz"
+	glass_desc = "This fizzy drink will leave the Nlom buzzing."
 
 /singleton/reagent/alcohol/thirdincident
 	name = "The Third Incident"
